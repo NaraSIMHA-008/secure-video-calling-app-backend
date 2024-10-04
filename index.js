@@ -10,7 +10,7 @@ app.use(cors());
 
 const io = require("socket.io")(server, {
   cors: {
-    origin: "secure-video-calling-frontend.vercel.app",
+    origin: "https://secure-video-calling-frontend.vercel.app",
     // origin: "http://localhost:3000",
   },
 });
